@@ -49,32 +49,64 @@
         </div>
         <div class="form-control">
           <p>What is your current role?</p>
-          <select id="dropdown" name="role"
-          class="form-control"
-          required>
-          <option disabled selected >
-            current role
-          </option>
-        <option value="students">
-          student
-        </option>
-        <option value="Job">
-          jod
-        </option>
-        </select>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected>current role</option>
+            <option value="students">student</option>
+            <option value="Job">jod</option>
+          </select>
         </div>
         <div class="form-group">
           <p>What would you recommend to microverse?</p>
           <label>
             <input
-            name="user-recoomendation"
-            value="definitely"
-            type="radio"
-            class="input-radio"
-            checked />
+              name="user-recoomendation"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />
             definitely
           </label>
 
+          <label>
+            <input
+              name="user-recommendation"
+              type="radio"
+              value="Maybe"
+              class="input-radio"
+            />
+            Maybe
+          </label>
+        </div>
+        <div class="form-group">
+          <p>What is your favorite feature of Microverse?</p>
+          <label>
+            <input
+              name="user-prefer"
+              type="checkbox"
+              value="Trials"
+              class="input-checkbox"
+            />
+            Trials
+          </label>
+          <label>
+            <input
+              name="user-prefer"
+              type="checkbox"
+              value="WholeProgram"
+              class="input-checkbox"
+            />
+            Whole Program
+          </label>
+          <label>
+            <input
+              name="user-prefer"
+              type="checkbox"
+              value="Motivations"
+              class="input-checkbox"
+            />
+            Motivations
+          </label>
         </div>
       </form>
     </div>
