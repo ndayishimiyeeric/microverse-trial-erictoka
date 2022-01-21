@@ -27,24 +27,42 @@ body::before {
       rgba(150, 150, 200, 0.5)
     ),
     url(http://photographyblogger.net/wp-content/uploads/2016/09/rsz_surfing_7.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 h1 {
-    font-weight: 300;
-    line-height: 1.6;
+  font-weight: 300;
+  line-height: 1.6;
 }
-p{
-    font-size: 1.3rem;
+p {
+  font-size: 1.3rem;
 }
-h1,p{
-    margin-top: 0;
-    margin-bottom: 0.6rem;
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
 }
-label{
-    display: flex;
-    align-items: center;
-    font-size:1.3rem ;
-    margin-bottom:0.5rem ;
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  max-width: 720px;
+  margin: 3rem auto 0 auto;
+}
+
+form {
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 3rem 1rem;
+  border-radius: 1.5rem;
+}
+
+.form-group {
+  margin: 0 auto 0.5rem auto;
+  padding: 0.25rem;
 }
