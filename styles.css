@@ -27,4 +27,7 @@ body::before {
       rgba(150, 150, 200, 0.5)
     ),
     url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fburst.shopify.com%2F&psig=AOvVaw2xYCEnwcmDp5AK46KyyAXs&ust=1642851111706000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPD2ncrfwvUCFQAAAAAdAAAAABAD);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
